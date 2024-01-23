@@ -3,6 +3,14 @@
   padding: 0;
   background-color: #e6e6fa;
 }
+#header {
+  text-align: center;
+  color: deepskyblue;
+  cursor: pointer;
+}
+#header:hover {
+  color: red;
+}
 .orange {
   height: 200px;
   width: 800px;
@@ -20,7 +28,7 @@
 }
 .flag-body {
   position: absolute;
-  border-radius: 5px;
+  border-radius: 10px;
   align-items: center;
   top: 10%;
   left: 25%;
@@ -31,4 +39,14 @@
   margin-right: auto;
   padding-top: 3rem;
   background-color: white;
+}
+.flag-stand {
+  border-radius: 10px;
+  display: block;
+  margin-top: 20px;
+  padding-top: 200px;
+  margin-left: 78%;
+  height: 1000px;
+  width: 20px;
+  background-color: darkolivegreen;
 }
